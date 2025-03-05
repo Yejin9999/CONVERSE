@@ -1,3 +1,6 @@
+body,html {
+    width:1903px; overflow-x:auto;
+}
 header {
     width:1920px; height:60px; padding:0 80px;
     display:flex; justify-content:space-between;

@@ -1,3 +1,6 @@
+body,html {
+    width:1903px; overflow-x:auto;
+}
 header {
     width:1920px; height:60px; padding:0 80px;
     display:flex; justify-content:space-between;
@@ -44,12 +47,14 @@ header .h_right a {margin-right:20px;}
 header .h_right a:last-child {margin:0;}
 header .h_right a img {}
 /* header 끝================================= */
-.bnr {}
-.bnr video {}
+
+.bnr {width:1920px;}
+.bnr video {width:100%; height:calc(100vh - 60px);}
+
 /* 메인배너 끝=========================== */
 
 main {
-    width:100%; margin:0 auto;
+    width:1920px; margin:0 auto;
 }
 
 main .new_wrap {
@@ -169,7 +174,6 @@ main .md_wrap ul li .contents .product .mddetails .saleprice {
 main .md_wrap ul li .contents .product .mddetails .saleprice .sale {
     color:#FF0000; font-size:0.81rem; margin-left:5px;
 }
-
 
 
 main .adbnr1,
@@ -416,8 +420,8 @@ main .limited_wrap ul li a p em {font-size:1.75rem; font-weight:600; color:#fff;
 /* 리미티드끝=============================================================================== */
 
 footer {
-    background-color:#000;
-    width:1920px; padding:30px 80px;
+    background-color:#000; padding:30px 80px;
+    width:1920px;
 }
 footer .top {
     display:flex; justify-content:space-between;
