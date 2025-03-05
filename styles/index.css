@@ -1,5 +1,6 @@
 body,html {
     width:1903px; overflow-x:auto;
+    /* 화면 가로 스크롤 없애는 방법 */
 }
 header {
     width:1920px; height:60px; padding:0 80px;
@@ -48,8 +49,8 @@ header .h_right a:last-child {margin:0;}
 header .h_right a img {}
 /* header 끝================================= */
 
-.bnr {width:1920px; height:calc(100vh - 60px);}
-.bnr video {width:100%; margin-left:-8px; }
+.bnr {width:1920px; height:calc(100vh - 60px);} 
+.bnr video {width:100%;   margin-left:-8px; }
 
 /* 메인배너 끝=========================== */
 
