@@ -48,8 +48,8 @@ header .h_right a:last-child {margin:0;}
 header .h_right a img {}
 /* header 끝================================= */
 
-.bnr {width:1920px;}
-.bnr video {width:100%; height:calc(100vh - 60px);}
+.bnr {width:1920px; height:calc(100vh - 60px);}
+.bnr video {width:100%; margin-left:-8px; }
 
 /* 메인배너 끝=========================== */
 
