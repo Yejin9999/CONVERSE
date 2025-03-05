@@ -379,11 +379,17 @@ main .rowtop_wrap .rowtop_right .swiper-scrollbtn a img {width:20px; height:20px
 /* 로우탑 끝=================================================================== */
 
 main .limited_wrap {
-    text-align:center; width:1920px; margin:160px 0;
+    text-align:center; width:1920px; margin:160px 0 0;
     /* position:relative; left:-205px;*/
+    background-color:#000;
+    padding-top:80px;
+    padding-bottom:150px;
 }
-main .limited_wrap h2 {font-size:2.50rem; font-weight:700; margin-bottom:50px;}
-main .limited_wrap ul {display:flex; justify-content:space-around;}
+main .limited_wrap h2 {
+    color:#fff;
+    font-size:2.50rem; font-weight:700; margin-bottom:50px;
+}
+main .limited_wrap ul {display:flex; padding:0 75px;}
 main .limited_wrap ul li {
     width:550px; height:700px; padding:50px;
     background-size:cover; background-position:center;
@@ -395,6 +401,7 @@ main .limited_wrap ul li:nth-child(1) {
 main .limited_wrap ul li:nth-child(2) {
     background-image:url(../images/limited2.jpg);
     background-size:cover; background-position:center;
+    margin:0 60px;
 }
 main .limited_wrap ul li:nth-child(3) {
     background-image:url(../images/limited3.jpg);
