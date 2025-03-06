@@ -3,7 +3,7 @@ body,html {
     /* 화면 가로 스크롤 없애는 방법 */
 }
 header {
-    width:1920px; height:60px; padding:0 80px;
+    height:60px; padding:0 80px;
     display:flex; justify-content:space-between;
     align-items:center;
     background-color:#000;
@@ -49,14 +49,12 @@ header .h_right a:last-child {margin:0;}
 header .h_right a img {}
 /* header 끝================================= */
 
-.bnr {width:1920px; height:calc(100vh - 60px);} 
-.bnr video {width:100%;   margin-left:-8px; }
+.bnr {height:calc(100vh - 60px); overflow:hidden;} 
+.bnr video {margin-left:-1px;}
 
 /* 메인배너 끝=========================== */
 
-main {
-    width:1920px; margin:0 auto;
-}
+main {margin:0 auto;}
 
 main .new_wrap {
     width:1500px; margin:160px auto;
@@ -422,7 +420,6 @@ main .limited_wrap ul li a p em {font-size:1.75rem; font-weight:600; color:#fff;
 
 footer {
     background-color:#000; padding:30px 80px;
-    width:1920px;
 }
 footer .top {
     display:flex; justify-content:space-between;
